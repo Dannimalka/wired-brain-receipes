@@ -1,0 +1,50 @@
+@import "utilities.css";
+
+:root {
+    --primary : #8D6DFD;
+    --pure : #95B7FE;
+    --dark : #001E5F; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: var(--dark);
+}
+
+.container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.center-menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav .center-menu a{
+    color: var(--pure);
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+header nav .center-menu a:hover {
+    color: var(--primary);
+}
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .branding {
+    margin-right: 0rem;
+}
